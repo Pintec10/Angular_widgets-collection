@@ -22,12 +22,12 @@ export class ElementsHomeComponent implements OnInit {
   segmentParams = [
     {
       name: 'icon header',
-      type: 'HTML ng-content',
+      type: 'Child HTML content',
       description: 'icon and text displayed in the upper part of the segment, must be wrapped in an element (e.g. a div) with the property "icon-header-content". Example: <div icon-header-content><i class="pdf file outline icon"></i>No documents listed here</div>'
     },
     {
       name: 'lower content',
-      type: 'HTML ng-content',
+      type: 'Child HTML content',
       description: 'content to display in the lower part of the segment, e.g. a button. Example: <button class="ui primary button">Add document</button>'
     }
   ]

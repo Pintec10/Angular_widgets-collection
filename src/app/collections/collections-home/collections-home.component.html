@@ -1,1 +1,7 @@
-<p>collections-home works!</p>
+<app-titled-divider>Table</app-titled-divider>
+<app-table
+    [data]="tableData"
+    [headers]="tableHeaders"
+    classNames="striped celled">
+</app-table>
+<app-params-list [title]="'Property Customization'" [params]="tableParams"></app-params-list>
