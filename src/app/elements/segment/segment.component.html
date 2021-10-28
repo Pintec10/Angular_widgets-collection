@@ -1,0 +1,10 @@
+<div class="ui placeholder segment">
+    <div icon-header class="ui icon header">
+        <ng-content select="[icon-header-content]"></ng-content>
+        <!-- the select will pick the content marked with a property called: icon-header-content -->
+        <!-- can also use an html element or a class: select="header", select=".icon-header-content" -->
+    </div>
+    <ng-content></ng-content>
+    <!-- this ng-content will pick up what's left from the select -->
+
+</div>

@@ -1,1 +1,5 @@
 @import 'semantic-ui-css/semantic.css';
+
+.top-margin {
+    margin-top: 25px;
+}
