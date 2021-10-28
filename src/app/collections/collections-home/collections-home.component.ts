@@ -63,6 +63,14 @@ export class CollectionsHomeComponent implements OnInit {
       type: 'string',
       description: 'a string containing the Semantic UI (or custom) class names to apply, separated by spaces. Example: "striped celled"'
     }
+  ];
+
+  tabsParams = [
+    {
+      name: 'router links',
+      type: 'child HTML content',
+      description: 'a series of <a> tags for the routing links; each must have the "item" class. Example: <a class="item" routerLink="./companies" routerLinkActive="active">Companies</a>'
+    }
   ]
 
   constructor() { }
