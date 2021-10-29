@@ -1,0 +1,5 @@
+/*applied to the element that hosts the component*/
+:host:not(:first-of-type) {                     
+    display: block;
+    margin-top: 50px;
+}

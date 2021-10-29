@@ -1,0 +1,5 @@
+/*applied to the element that hosts the component*/
+:host {                     
+    display: block;
+    margin-top: 25px;
+}
