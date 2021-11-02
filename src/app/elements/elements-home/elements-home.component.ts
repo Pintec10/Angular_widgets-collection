@@ -17,7 +17,7 @@ export class ElementsHomeComponent implements OnInit {
       type: 'number',
       description: 'number of lines to show in the paragraph section at the bottom'
     }
-  ]
+  ];
 
   segmentParams = [
     {
@@ -30,7 +30,7 @@ export class ElementsHomeComponent implements OnInit {
       type: 'Child HTML content',
       description: 'content to display in the lower part of the segment, e.g. a button. Example: <button class="ui primary button">Add document</button>'
     }
-  ]
+  ];
 
   constructor() { }
 

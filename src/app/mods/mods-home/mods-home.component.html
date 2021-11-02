@@ -1,2 +1,13 @@
-<app-titled-divider>Modal</app-titled-divider>
-<app-modal></app-modal>
+<app-titled-divider></app-titled-divider>
+<button (click)="toggleModal()">Show Modal</button>
+<app-modal *ngIf="modalOpen" (close)="toggleModal()">
+    <div modalTitle>Ipsum Lorem</div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi sit animi fugit molestiae suscipit
+        laboriosam asperiores doloribus, neque aliquid fugiat corporis, sequi illo labore esse blanditiis, quasi
+        maiores. Architecto, vel!
+    </p>
+    <ng-container modalFooter>
+        <button class="ui button" (click)="toggleModal()">Custom close-me</button>
+    </ng-container>
+</app-modal>
+<app-params-list [title]="'Property Customization'" [params]=" modalParams"></app-params-list>
